@@ -8,8 +8,6 @@
     using Microsoft.AspNet.Hosting;
     using Microsoft.Framework.DependencyInjection;
 
-    using Swashbuckle.Swagger;
-
     using ApiAppAspNet5.Configurations;
 
     public class Startup
