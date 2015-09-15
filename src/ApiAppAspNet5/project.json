@@ -20,13 +20,11 @@
   },
 
   "exclude": [
-    "wwwroot",
-    "node_modules",
-    "bower_components"
+    "wwwroot"
   ],
+
   "publishExclude": [
-    "node_modules",
-    "bower_components",
+    "Properties/PublishProfiles",
     "**.xproj",
     "**.user",
     "**.vspscc"

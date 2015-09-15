@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNet.Mvc;
-
-namespace ApiAppAspNet5.Controllers
+﻿namespace ApiAppAspNet5.Controllers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+
+    using Microsoft.AspNet.Mvc;
+
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
