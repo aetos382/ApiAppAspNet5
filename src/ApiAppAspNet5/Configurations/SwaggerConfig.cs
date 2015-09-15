@@ -33,7 +33,6 @@
                 });
         }
 
-        // Configure is called after ConfigureServices is called.
         public static void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseSwagger("swagger/{apiVersion}/swagger.json");
